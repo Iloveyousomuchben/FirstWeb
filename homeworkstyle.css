@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+    font-family:'Roboto Mono', monospace;
+}
+
+body{
+
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(300deg,#df82d2,#4c3b88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    margin: 30px ;
+    font-weight:  500;
+    font-size:xx-large;
+    box-shadow: #e99c44;
+    text-shadow: #e99c44;
+    border: #e99c44;
+}
+
+input {
+    border: none;
+    height: 30px;
+    width: 100  ;
+    margin: 2px 0;
+    padding: 0% 10px;
+    font-size: 1rem;
+    outline: rgb(17, 16, 16);
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    
+    
+
+    
+}
+
+.textbox {
+    color: rgb(85, 89, 92);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.986);
+
+}
+
+.textbox ::placeholder{
+    color: rgb(0, 0, 0);
+
+}
+
+.textbox:hover,
+.textbox:focus {
+    background: #ffff;
+    width: 266px;
+    color: #000000;
+}
+
+.accpect {
+    height: 30px;
+    width: 595px;
+    background-image: -linear-gradient(130deg,#e08686,#e99c44);
+    color: #e08686;
+   
+
+}
+.accpect:hover{
+    background: rgb(243, 227, 154);
+    color: #23554a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.check {
+    width: 23px;
+    height: 21px;
+    color: aqua;
+    background-color: #509667;
+    
+
+}
+
+.color {
+    color: aliceblue;
+}
